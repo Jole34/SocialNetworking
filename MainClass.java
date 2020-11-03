@@ -6,11 +6,7 @@ import java.util.Set;
 import edu.uci.ics.jung.graph.UndirectedSparseGraph;
 
 public class MainClass {
-
-	
-	
-	
-	
+			
 	public static void main (String[]   args) throws IOException {
 	DFCComponents workingGraph = new DFCComponents();
 	UndirectedSparseGraph<Integer, String> loaded = workingGraph.getLoadedGraph();
@@ -24,8 +20,5 @@ public class MainClass {
 	metric.readGrahV();
 	metric.readGrahE();
 	
-
 	}
-	
-	
 }
